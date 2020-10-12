@@ -1,0 +1,109 @@
+\documentclass[fleqn]{article}
+\oddsidemargin 0.0in
+\textwidth 6.0in
+\thispagestyle{empty}
+\usepackage{import}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{float}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\definecolor{hwColor}{HTML}{AD53BA}
+
+\begin{document}
+
+  \begin{titlepage}
+
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+    \center % Center everything on the page
+    
+
+
+    \textsc{\LARGE Arizona State University}\\[1.5cm] % Name of your university/college
+
+    \textsc{\LARGE Physics III }\\[1.5cm] % Major heading such as course name
+
+
+    \begin{figure}
+      \includegraphics[width=\linewidth]{asu.png}
+    \end{figure}
+
+
+    \HRule \\[0.4cm]
+    { \huge \bfseries Homework 7}\\[0.4cm] 
+    \HRule \\[1.5cm]
+    
+    \textbf{Behnam Amiri}
+
+    \bigbreak
+
+    \textbf{Prof: David Smith}
+
+    \bigbreak
+
+
+    \textbf{{\large \today}\\[2cm]}
+
+    \vfill % Fill the rest of the page with whitespace
+
+  \end{titlepage}
+
+  \begin{enumerate}
+    \item In Fig. 35-4, assume that two waves of light in air, of wavelength 400 nm, are initially in phase. One travels through a glass layer of index of refraction $n_1=1.60$ and thickness L.The other travels through an equally thick plastic layer of index of refraction $n_2=1.50$. (a) What is the smallest value L should have if the waves are to end up with a phase difference of 5.65 rad? (b) If the waves arrive at some common point with the same amplitude, is their interference fully constructive, fully destructive, intermediate but closer to fully constructive,or intermediate but closer to fully destructive?
+    
+    \textcolor{hwColor}{
+      $
+        \Delta_1=n_1L=1.60L \\
+        \Delta_1=n_2L=1.50L \\
+      $
+      Path difference between rays $\Delta=\Delta_1-\Delta_2=0.1L$ \\
+      Path difference$=\dfrac{2\pi}{\lambda}\Delta \longrightarrow 5.65=\dfrac{2\pi}{400\times10^{-9}}(0.1L)$ \\
+      $
+        \Longrightarrow L=3.59 \mu m
+      $ \\
+    }
+
+    \textcolor{hwColor}{
+      $
+        \Delta=0.1L=0.1 \times 3.59 \times 10^{-6}=0.89 \lambda
+      $
+      The result is neither multiple of even numbers ($0, \lambda,2\lambda,...$) nor odd multiple of $\dfrac{\lambda}{2}$ \\
+      Phase difference is almost close to $\lambda $ so we can say it is more constructive. 
+    }
+    
+    \item The wavelength of yellow sodium light in air is 589 nm. (a) What is its frequency? (b) What is its wavelength in glass whose index of refraction is 1.52? (c) From the results of (a) and (b), find its speed in this glass.
+
+    \textcolor{hwColor}{
+      $
+        f=\dfrac{c}{\lambda}=\dfrac{3 \times 10^8}{589 \times 10^{-9}}=5.09\times10^{14} Hz \\
+        \lambda_1=\dfrac{\lambda}{n}=\dfrac{589}{1.52}=387.5 nm \\
+        v=f\lambda=(5.09\times10^{14})\times(387.5\times10^{-9})=1.97\times10^9 \dfrac{m}{s}
+      $
+    }
+
+    \item In Fig. 35-4, assume that the two light waves, of wavelength 620 nm in air, are initially out of phase by $\pi$ rad. The indexes of refraction of the media are $n_1=1.45$ and $n_2=1.65$. What are the (a) smallest and (b) second smallest value of L that will put the waves exactly in phase once they pass through the two media?
+
+    \item A double-slit arrangement produces interference fringes for sodium light ($\lambda=589 nm$) that are 0.20° apart. What is the angular fringe separation if the entire arrangement is immersed in water (n=1.33)?
+
+    \item Monochromatic green light, of wavelength 550 nm, illuminates two parallel narrow slits $7.70 \mu m$ apart. Calculate the angular deviation ($\theta$ in Fig. 35-10) of the third-order (m=3) bright fringe (a) in radians and (b) in degrees.
+
+    \item In a double-slit experiment, the distance between slits is 5.0 mm and the slits are 1.0 m from the screen. Two interference patterns can be seen on the screen: one due to light of wavelength 480 nm, and the other due to light of wavelength 600 nm. What is the separation on the screen between the third-order (m=3) bright fringes of the two interference patterns?
+
+    \item In Fig. 35-39, two isotropic point sources of light ($S_1$ and $S_2$) are separated by distance 2.70 $\mu$m along a y axis and emit in phase at wavelength 900 nm and at the same amplitude. A light detector is located at point P at coordinate $x_P$ on the x axis. What is the greatest value of $x_P$ at which the detected light is minimum due to destructive interference?
+
+    \item A thin flake of mica (n=1.58) is used to cover one slit of a double-slit interference arrangement.The central point on the viewing screen is now occupied by what had been the seventh bright side fringe (m  7). If $\lambda=550 nm$, what is the thickness of the mica?
+
+    \item A 600-nm-thick soap film (n=1.40) in air is illuminated with white light in a direction perpendicular to the film. For how many different wavelengths in the 300 to 700 nm range is there (a) fully constructive interference and (b) fully destructive interference in the reflected light?
+
+    \item A thin film of acetone (n=1.25) coats a thick glass plate (n=1.50). White light is incident normal to the film. In the reflections, fully destructive interference occurs at 600 nm and fully constructive interference at 700 nm. Calculate the thickness of the acetone film.
+
+    \item A plane wave of monochromatic light is incident normally on a uniform thin film of oil that covers a glass plate. The wavelength of the source can be varied continuously. Fully destructive interference of the reflected light is observed for wavelengths of 500 and 700 nm and for no wavelengths in between. If the index of refraction of the oil is 1.30 and that of the glass is 1.50, find the thickness of the oil film.
+    
+    \item In Fig. 35-44, a broad beam of light of wavelength 683 nm is sent directly downward through the top plate of a pair of glass plates. The plates are 120 mm long, touch at the left end, and are separated by 48.0 $\mu$ m at the right end. The air between the plates acts as a thin film. How many bright fringes will be seen by an observer looking down through the top plate?
+    
+  \end{enumerate}
+
+\end{document}
