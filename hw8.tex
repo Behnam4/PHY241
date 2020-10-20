@@ -1,0 +1,254 @@
+\documentclass[fleqn]{article}
+\oddsidemargin 0.0in
+\textwidth 6.0in
+\thispagestyle{empty}
+\usepackage{import}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{float}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\definecolor{hwColor}{HTML}{AD53BA}
+
+\begin{document}
+
+  \begin{titlepage}
+
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+    \center % Center everything on the page
+    
+
+
+    \textsc{\LARGE Arizona State University}\\[1.5cm] % Name of your university/college
+
+    \textsc{\LARGE Physics III }\\[1.5cm] % Major heading such as course name
+
+
+    \begin{figure}
+      \includegraphics[width=\linewidth]{asu.png}
+    \end{figure}
+
+
+    \HRule \\[0.4cm]
+    { \huge \bfseries Homework 8}\\[0.4cm] 
+    \HRule \\[1.5cm]
+    
+    \textbf{Behnam Amiri}
+
+    \bigbreak
+
+    \textbf{Prof: David Smith}
+
+    \bigbreak
+
+
+    \textbf{{\large \today}\\[2cm]}
+
+    \vfill % Fill the rest of the page with whitespace
+
+  \end{titlepage}
+
+  \begin{enumerate}
+    \item (1) The distance between the first and fifth minima of a
+    single-slit diffraction pattern is 0.35 mm with the screen 40 cm
+    away from the slit, when light of wavelength 550 nm is used. (a)
+    Find the slit width. (b) Calculate the angle u of the first diffraction
+    minimum.
+
+      \textcolor{hwColor}{
+        $
+          a~sin(\theta)=m \lambda \\
+          sin(\theta)=\dfrac{y}{d} \\
+          \\
+          y=\dfrac{m \lambda d}{a} \\
+          \\
+          \Delta y=\dfrac{\lambda d \Delta m}{a} \\
+          \\
+          a=\dfrac{(550 \times 10^{-9})(0.40)(5-1)}{0.35 \times 10^{-3}} \Longrightarrow a=2.5 \times 10^{-3} ~~ m
+          \\
+          \theta=arcsin(\dfrac{m\lambda}{a})=arcsin(\dfrac{550 \times 10^-9}{2.5 \times 10^-3}) \Longrightarrow \theta=2.2 \times 10^-4 ~~ rad
+        $
+      }
+    
+    \item (6) Monochromatic light of wavelength 441 nm is incident on a
+    narrow slit. On a screen 2.00 m away, the distance between the second diffraction minimum and the central maximum is 1.50 cm. (a)
+    Calculate the angle of diffraction $\theta$ of the second minimum. (b)
+    Find the width of the slit.
+
+      \textcolor{hwColor}{
+        $
+          a~sin(\theta)=m \lambda \\
+          sin(\theta)=\dfrac{y}{d} \\
+          \\
+          y=\dfrac{m \lambda d}{a} \\
+          \\
+          \theta=arcsin(\dfrac{1.50 \times 10^{-2}}{2}) \Longrightarrow \theta=0.43^{\circ} \\
+          \\
+          a=\dfrac{4(441 \times 10^{-9})}{1.50 \times 10^{-2}} \Longrightarrow a=1.18 \times 10^{-4}
+        $
+      }
+
+    \item (13) Monochromatic light with wavelength 538 nm is incident on
+    a slit with width 0.025 mm. The distance from the slit to a screen is
+    3.5 m. Consider a point on the screen 1.1 cm from the central maximum. Calculate (a) $\theta$ for that point, (b) $\alpha$, and (c) the ratio of the
+    intensity at that point to the intensity at the central maximum.
+
+      \textcolor{hwColor}{
+        $
+          sin(\theta)=\dfrac{y}{L}=\dfrac{0.011}{3.5} \\
+          \theta=sin^{-1}(\dfrac{0.011}{3.5})=0.18^{\circ} \\
+          \\
+          \alpha=\pi a\dfrac{sin(\theta)}{\lambda}=\pi \dfrac{sin(0.18^{\circ})}{(538 \times 10^{-9})}=0.46 ~rad \\
+          \\
+          \dfrac{I}{I_m}=\left(\dfrac{sin(\alpha)}{\alpha}\right)=\left(\dfrac{sin(0.46)}{0.46}\right)=0.94
+        $
+      }
+
+    \item (20) The radar system of a navy cruiser transmits at a wavelength
+    of 1.6 cm, from a circular antenna with a diameter of 2.3 m. At a
+    range of 6.2 km, what is the smallest distance that two speedboats
+    can be from each other and still be resolved as two separate objects
+    by the radar system?
+
+      \textcolor{hwColor}{
+        $
+          sin(\theta)=1.22\dfrac{\lambda}{d} \\
+          \\
+          L\theta=D \rightarrow \theta=\dfrac{D}{L} \\
+          \\
+          \dfrac{D}{L}=1.22\dfrac{L\lambda}{d} \\
+          \\
+          D=1.22\dfrac{(6.2 \times 10^3)(1.6 \times 10^{-2})}{2.3} \\
+          \\ 
+          D=53 ~ m
+        $
+      }
+
+    \item (25) Find the separation of two points on the Moon’s surface
+    that can just be resolved by the 200 in. ( =5.1 m) telescope at
+    Mount Palomar, assuming that this separation is determined by
+    diffraction effects. The distance from Earth to the Moon is $3.8 \times 10^5$ km.Assume a wavelength of 550 nm for the light.
+
+      \textcolor{hwColor}{
+        $
+          sin(\theta)=1.22\dfrac{\lambda}{d} \\
+          \\
+          L\theta=D \rightarrow \theta=\dfrac{D}{L} \\
+          \\
+          \dfrac{D}{L}=1.22\dfrac{L\lambda}{d} \\
+          \\
+          D=1.22\dfrac{(3.8 \times 10^8)(550 \times 10^{-9})}{5.1} \\
+          \\ 
+          D=50 ~ m
+        $
+      }
+
+    
+    \item (39) Light of wavelength 440 nm passes through a double slit,
+    yielding a diffraction pattern whose graph of intensity I versus angular position $\theta$ is shown in Fig. 36-44. Calculate (a) the slit width
+    and (b) the slit separation. (c) Verify the displayed intensities of
+    the $m_1$ and $m_2$ interference fringes.
+
+      \textcolor{hwColor}{
+        $
+         a=\dfrac{\lambda}{sin(\theta)}=\dfrac{0.440}{sin(5)}=5.05 \mu m \\
+         \\
+         d=4a=4(5.05)=20.s \mu m \\
+         \\
+         \alpha=\dfrac{\pi a sin(\theta)}{\pi}=\dfrac{\pi (5.05)(sin(1.25))}{0.440}=0.787 ~~rad \\
+         \\
+         I=I_m=(\dfrac{sin(\alpha)}{\alpha})^2=(7)(\dfrac{sin(0.787)}{0.787})=5.7 ~~\dfrac{mW}{cm^2} \\
+         \\
+         m=2 \rightarrow I=2.9 ~~\dfrac{mW}{cm^2}
+        $
+      }
+
+    \vfill
+
+    \item (42) (a) In a double-slit experiment, what ratio of d to a
+    causes diffraction to eliminate the fourth bright side fringe? (b)
+    What other bright fringes are also eliminated?
+
+    \textcolor{hwColor}{
+      $
+        a sin(\theta)=\lambda \\
+        \\
+        d sin(\theta)=m_2 \lambda \\
+        \\
+        m_2=\dfrac{d}{a} \\
+        m=4 \\
+        \\
+        d=4\lambda \\
+        \\
+        asin(\theta)=m_1 \lambda \\
+        \\
+        \dfrac{m_2}{m_1}=\dfrac{d}{a} \\ 
+        \\
+        m_2=4m_1 \\
+        \\
+      $
+      The missing fringes are 4th, 8th, 12th and... \\
+      $
+        \\
+        \dfrac{d}{a}=\dfrac{4}{m_1}
+      $
+      We have four ratios to exactly eliminate the fourth maximum.
+    }
+
+
+    \item (49) Light of wavelength 600 nm is incident normally on a diffraction grating. Two adjacent maxima occur at angles given by $sin(\theta)=0.2$ and $sin(\theta)=0.3$. The fourth-order maxima
+    are missing. (a) What is the separation between adjacent slits?
+    (b) What is the smallest slit width this grating can have? For that
+    slit width, what are the (c) largest, (d) second largest, and (e) third
+    largest values of the order number m of the maxima produced by
+    the grating?
+
+      \textcolor{hwColor}{
+        $
+          dsin(\theta)=m\lambda \\
+          \\
+          dsin(\theta_1)=m \lambda ~~~~~ dsin(\theta_2)=(m+1)\lambda \\
+          \\
+          d\left(sin(\theta_2)-sin(\theta_1)=\lambda\right) \\
+          \\
+          d=\dfrac{\lambda}{sin(\theta_2)-sin(\theta_1)} \\ 
+          \\
+          d=\dfrac{600 \times 10^{-9}}{0.3-0.2} \rightarrow d=6 \times 10^{-6} ~~m \\
+          \\
+          \\
+          asin(\theta)=m\lambda \\
+          a=\dfrac{d}{4} \\
+          \\
+          a=\dfrac{6 \times 10^{-6}}{4} \rightarrow a=1.5 \times 10^{-6} ~~m \\
+          \\
+          \\
+          m<\dfrac{d}{\lambda} \rightarrow m<\dfrac{6 \times 10^{-6}}{600 \times 10^{-9}} \\
+          \\
+          m<10
+        $
+        Hence, the largest value for m is 9 \\
+        The second largest number for m is 7 \\
+        And the third largest number for m is 6
+      }
+
+    \item (60) The D line in the spectrum of sodium is a doublet with wavelengths 589.0 and 589.6 nm. Calculate the minimum number of lines
+    needed in a grating that will resolve this doublet in the secondorder spectrum.
+
+    \textcolor{hwColor}{
+      $
+        R=\dfrac{\lambda}{\Delta \lambda}=Nm \\
+        \\
+        N=\dfrac{\lambda}{m \Delta \lambda} \\
+        \\
+        N= \dfrac{\dfrac{589.6+589}{2}}{2(589.6-589)} \\
+        \\
+        \Longrightarrow N=491
+      $
+    }
+
+  \end{enumerate}
+
+\end{document}
