@@ -52,23 +52,166 @@
   \end{titlepage}
 
   \begin{enumerate}
-    \item (1) An electron in a hydrogen atom is in a state with $l=5$. What is the minimum possible value of the semiclassical angle between $\overrightarrow{L}$ and $L_z$
+    \item (1) An electron in a hydrogen atom is in a state with $l=5$. What is the minimum possible value of the semiclassical angle between $\overrightarrow{L}$ and $L_z$.
+
+      \textcolor{hwColor}{  
+        $ 
+          L=\sqrt{l(l+1)h} \\
+          L_z=m_1h \\
+          cos(\theta)=\dfrac{L_z}{L} 
+        $ \\
+        The smallest $\theta$ is when $m=1$ \\
+        $
+          cos(\theta)=\dfrac{lh}{\sqrt{l(l+1)h}} \Longrightarrow \theta=arccos(\dfrac{5}{\sqrt{30}}) \approx 24^\circ
+        $
+      } 
+
     \item (5) (a) How many $l$ values are associated with $n=3$? (b) How many $m_l$ values are associated with $l=1$?
+
+      \textcolor{hwColor}{  
+        (a): There are $0$ to $n-1$ values of l are associated with $n$. We have $n=3$, therefore, $0$ to $2$ values of $l$ are possible. \\
+        Hence, 3 values of $l$ are possible. $(0,1,2)$
+      }
+
+      \textcolor{hwColor}{
+        (b): For every $l$, the possible values of $m_l$ is from $-l$ to $l$. 3 values of $m_l$ are possible.$ (-1, 0, 1)$
+      }
+
     \item (9) An electron is in a state with $l=3$ . (a) What multiple of $h$ gives the magnitude of $\overrightarrow{L}$ ? (b) What multiple of $\mu_B$ gives the magnitude of $\overrightarrow{\mu}$? (c) What is the largest possible value of $m_l$, (d) what multiple of $h$ gives the corresponding value of $L_z$, and (e) what multiple of $\mu_B$ gives the corresponding value of $\mu_{orb,z}$? (f) What is the value of the semiclassical angle $\theta$ between the directions of $L_z$ and $\overrightarrow{L}$ What is the value of angle $\theta$ for (g) the second largest possible value of $m_l$ and (h) the smallest (that is, most negative) possible value of $m_l$?
+    
+      \textcolor{hwColor}{  
+        (a): \\
+        $L=\sqrt{l(l+1)h}=\sqrt{3(3+1)h}=2\sqrt{3}h$ \\
+        \\
+        \\
+        (b): \\
+        $\mu=-\sqrt{l(l+1)} \mu_B=\sqrt{3(3+1)} \mu_B=-2\sqrt{3} \mu_B$ \\
+        \\
+        \\
+        (c): \\
+        $
+          l=3 ~~~ m_l=-2,-1,0,1,2 \\
+        $
+        \\
+        \\
+        (d): \\
+          $L_z=\sqrt{l(l+1)}h cos(\theta)=2\sqrt{3} h cos(\theta)$
+        \\
+        \\
+        (e): \\
+          $
+            \mu_{orb}=m_l \mu_B \\
+            l=3, ~~~ m_l=3,2,1,0,-1,-2,-3 \\
+            \mu_{orb}=3\mu_B,2\mu_B,1\mu_B,0\mu_B,-1\mu_B,-2\mu_B,-3\mu_B 
+          $
+        \\
+        \\
+        (f): \\
+          $
+            cos(\theta)=\dfrac{m_l}{\sqrt{l(l+1)}} ~~~ l=3 \rightarrow cos(\theta)=\dfrac{m_l}{2\sqrt{3}} \\
+            m_l=0 \rightarrow \theta=0 \\
+            m_l=1,-1 \rightarrow \theta=cos^{-1}(\dfrac{1}{2\sqrt{3}})=73.22^\circ ~~~ \theta=cos^{-1}(-\dfrac{1}{2\sqrt{3}})=106.77^\circ \\
+            m_l=2,-2 \rightarrow \theta=cos^{-1}(\dfrac{1}{\sqrt{3}})=54.73^\circ ~~~ \theta=cos^{-1}(-\dfrac{1}{\sqrt{3}})=125.26^\circ \\
+            m_l=3,-3 \rightarrow \theta=cos^{-1}(\dfrac{\sqrt{3}}{2})=30^\circ ~~~ \theta=cos^{-1}(\dfrac{\sqrt{3}}{2})=150^\circ \\
+          $
+        \\
+        \\
+        (g): Second largest value of $m_l=2$
+        \\
+        \\
+        (h): Smallest largest value of $m_l=-2$
+      }
+
     \item (10) An electron is in a state with n  3.What are (a) the number of possible values of , (b) the number of possible values of , (c) the number of possible values of ms, (d) the number of states in the n=3 shell, and (e) the number of subshells in the n=3 shell?
+    
+    \textcolor{hwColor}{
+      (a): \\
+      The possible values are $0,1,2$
+      \\
+      \\
+      (b): \\
+        $m_l=0$ for $l=0$ \\
+        $m_l=-1,0,1$ for $l=1$ \\
+        $m_l=-2,-1,0,1,2$ for $l=2$ \\
+      \\
+      \\
+      (c): \\
+        $m_s=\dfrac{1}{2}$ and $-\dfrac{1}{2}$
+      \\
+      \\
+      (d): \\
+      The total number of allowed states of electron when $n=3$ is $18=2 \times 9$
+      \\
+      \\
+      (e): \\
+      For $n=3$, the total number of subshells are $3~i.e.s,p,d$
+      \\
+      \\
+    }
+
     \item (12) A magnetic field is applied to a freely floating uniform
     iron sphere with radius The sphere initially had no
     net magnetic moment, but the field aligns $12\%$ of the magnetic moments of the atoms (that is, $12\%$ of the magnetic moments of the
     loosely bound electrons in the sphere, with one such electron per
     atom). The magnetic moment of those aligned electrons is the
     sphere’s intrinsic magnetic moment . What is the sphere’s resulting angular speed $\omega$?
+
+      \textcolor{hwColor}{
+        $
+          L_{sphere}=L_{atom} \\
+          L_{atom}=0.12N(m_s h) \\
+          N=\dfrac{N_A m}{M} \rightarrow L_{atom}=\dfrac{0.12N_A m}{M}(m_s h) \\
+          L_{sphere}=I \omega ~~~~ I=\dfrac{2}{5}mR^2 \longrightarrow L_{sphere}=\dfrac{2}{5}mR^2\omega \\
+          \\
+          \\
+          \dfrac{2}{5}mR^2\omega=\dfrac{0.12N_A m}{M}(m_s h) \Rightarrow \omega=\dfrac{0.12(5)N_A m_s h}{4MR^2}=\dfrac{0.12(5)(6.022 \times 10^{23})(1.055 \times 10^{-34})}{4(0.0558)(2 \times 10^{-3})^2} \\
+          \omega=4.27 \times 10^{-5} ~~~ \dfrac{rad}{s}
+        $
+      }
+    
+    
     \item (16) Assume that in the Stern–Gerlach experiment as described for
     neutral silver atoms, the magnetic field has a magnitude of 0.50 T.
     (a) What is the energy difference between the magnetic moment orientations of the silver atoms in the two subbeams? (b) What is the
     frequency of the radiation that would induce a transition between
     these two states? (c) What is the wavelength of this radiation, and (d)
     to what part of the electromagnetic spectrum does it belong?
+
+      \textcolor{hwColor}{
+        (a): \\
+        $
+          \Delta E=2\mu_0 B=2(9.27 \times 10^{-24})=5.79 \times 10^{-5} ~~ ev
+        $
+        \\
+        \\
+        (b): \\
+        $f=\dfrac{\Delta E}{b}=\dfrac{9.27 \times 10^{-24}}{6.63 \times 10^{-34}}=13.98 ~~ GHZ$
+        \\
+        \\
+        (c): \\
+        $
+          \lambda=\dfrac{c}{f}=\dfrac{3 \times 10^{8}}{13.98 \times 10^9}=2.15 ~~ cm
+        $
+        \\
+        \\
+        (d): \\
+        It is short wave region.
+        \\
+        \\
+      }
+    
+    
     \item (23) A cubical box of widths $L_x=L_y=L_z=L$ contains eight electrons. What multiple of h2/8mL2 gives the energy of the ground state of this system? Assume that the electrons do not interact with one another, and do not neglect spin
+
+
+      \textcolor{hwColor}{
+        $
+          E_g=2E_{1,1,1}+2E_{1,1,2}+2E_{1,2,1}+2E_{2,1,1} \\
+          E_{n_x,n_y,n_z}=\dfrac{h^2}{2m}\left(\dfrac{n^2_x}{L^2_x}+\dfrac{n^2_y}{L^2_y}+\dfrac{n^2_z}{L^2_z}\right) \\
+          E_g=42(\dfrac{h^2}{2mL^2})
+        $ 
+      }
+    
   \end{enumerate}
 
 \end{document}
