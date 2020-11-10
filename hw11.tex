@@ -1,0 +1,167 @@
+\documentclass[fleqn]{article}
+\oddsidemargin 0.0in
+\textwidth 6.0in
+\thispagestyle{empty}
+\usepackage{import}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{float}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\definecolor{hwColor}{HTML}{AD53BA}
+
+\begin{document}
+
+  \begin{titlepage}
+
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+    \center % Center everything on the page
+    
+
+
+    \textsc{\LARGE Arizona State University}\\[1.5cm] % Name of your university/college
+
+    \textsc{\LARGE Physics III }\\[1.5cm] % Major heading such as course name
+
+
+    \begin{figure}
+      \includegraphics[width=\linewidth]{asu.png}
+    \end{figure}
+
+
+    \HRule \\[0.4cm]
+    { \huge \bfseries Homework 11}\\[0.4cm] 
+    \HRule \\[1.5cm]
+    
+    \textbf{Behnam Amiri}
+
+    \bigbreak
+
+    \textbf{Prof: David Smith}
+
+    \bigbreak
+
+
+    \textbf{{\large \today}\\[2cm]}
+
+    \vfill % Fill the rest of the page with whitespace
+
+  \end{titlepage}
+
+  \textbf{Chapter 37}
+  \begin{enumerate}
+    \item (40) How much work must be done to increase the speed of an electron from rest to (a) 0.500c, (b) 0.990c, and (c) 0.9990c?
+
+      \textcolor{hwColor}{
+        A: \\
+        $
+          K=mc^2(\dfrac{1}{\sqrt{1-B^2}}-1)=(9.109e-31)(3e8)^2(\dfrac{1}{\sqrt{1-0.500^2}}-1) \\
+          K=0.0795 ~ MeV
+        $
+      }
+      
+      \textcolor{hwColor}{   
+        \rule{15cm}{0.4pt}   
+      } 
+
+      \textcolor{hwColor}{
+        B: \\
+        $
+          K=mc^2(\dfrac{1}{\sqrt{1-B^2}}-1)=(9.109e-31)(3e8)^2(\dfrac{1}{\sqrt{1-0.990^2}}-1) \\
+          K=3.20 ~ MeV
+        $
+      }
+
+      \textcolor{hwColor}{   
+        \rule{15cm}{0.4pt}   
+      } 
+
+      \textcolor{hwColor}{
+        C: \\
+        $
+          K=mc^2(\dfrac{1}{\sqrt{1-B^2}}-1)=(9.109e-31)(3e8)^2(\dfrac{1}{\sqrt{1-0.9990^2}}-1) \\
+          K=11 ~ MeV
+        $
+      }
+    \item (43) How much work must be done to increase the speed of an electron (a) from 0.18c to 0.19c and (b) from 0.98c to 0.99c? Note that the speed increase is 0.01c in both cases
+
+      \textcolor{hwColor}{
+        A: \\
+        $
+          K_i=mc^2(\dfrac{1}{\sqrt{1-B^2}}-1)=(9.109e-31)(3e8)^2(\dfrac{1}{\sqrt{1-0.18^2}}-1) \\
+          K_i=8508.125 ~ eV \\
+          \\
+          \\
+          K_f=mc^2(\dfrac{1}{\sqrt{1-B^2}}-1)=(9.109e-31)(3e8)^2(\dfrac{1}{\sqrt{1-0.19^2}}-1) \\
+          K_f=9506.7 ~ eV \\
+          \\
+          \Delta K=K_f-K_i=1.0 ~ keV
+        $
+      }
+
+      \textcolor{hwColor}{   
+        \rule{15cm}{0.4pt}   
+      }
+
+      \textcolor{hwColor}{
+        B: \\
+        $
+          K_i=mc^2(\dfrac{1}{\sqrt{1-B^2}}-1)=(9.109e-31)(3e8)^2(\dfrac{1}{\sqrt{1-0.98^2}}-1) \\
+          K_i=2056181.25 ~ eV \\
+          \\
+          \\
+          K_f=mc^2(\dfrac{1}{\sqrt{1-B^2}}-1)=(9.109e-31)(3e8)^2(\dfrac{1}{\sqrt{1-0.99^2}}-1) \\
+          K_f=3119793.75 ~ eV \\
+          \\
+          \Delta K=K_f-K_i=1.1 ~ MeV
+        $
+      }
+        
+    \item (45) In a high-energy collision between a cosmic-ray particle and a particle near the top of Earth’s atmosphere, 120 km above sea
+    level, a pion is created. The pion has a total energy E of 1.35  105 MeV and is traveling vertically downward. In the pion’s rest frame,
+    the pion decays 35.0 ns after its creation. At what altitude above sea level, as measured from Earth’s reference frame, does the decay occur? The rest energy of a pion is 139.6 MeV.
+
+      \textcolor{hwColor}{
+        $
+          d=c\Delta t, ~~~ \Delta t=\gamma \Delta t_0 \\
+          d=\dfrac{cE \Delta t_0}{mc^2}=\dfrac{(3.0 \times 10^8)(1.35 \times 10^5)(35 \ times 10^{-9})}{139.6 MeV} \\
+          \\
+          d=110 ~ km
+        $
+      }
+
+    \item (48) The mass of a muon is 207 times the electron mass; the average lifetime of muons at rest is 2.20 ms. In a certain experiment, muons moving through a laboratory are measured to have
+    an average lifetime of 6.90 ms. For the moving muons, what are (a)b, (b) K, and (c) p (in MeV/c)?
+
+      \textcolor{hwColor}{
+        A: \\
+        $
+          \Delta t=\gamma \Delta t_0 ~~~ \gamma=\dfrac{1}{\sqrt{1-\beta^2}} \\
+          \beta = \sqrt{1-(\dfrac{\Delta t_0}{\Delta t})^2}=\sqrt{1-(\dfrac{2.20 \times 10^{-6}}{6.90 \times 10^{-6}})^2} \\
+          \\
+          \beta=0.9478
+        $
+      }
+
+    \item (54)
+  \end{enumerate}
+
+  \textbf{Chapter 38}
+  \begin{enumerate}
+    \item (3) Start here
+    \item (6)
+    \item (9)
+    \item (13)
+    \item (18)
+    \item (22)
+    \item (24)
+    \item (29)
+    \item (36)
+    \item (37)
+  \end{enumerate}
+  
+
+\end{document}
