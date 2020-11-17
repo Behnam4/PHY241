@@ -160,25 +160,105 @@
         $
       }
 
-
-
     \item (59) Show that Eq. 38-17 is indeed a solution of Eq. 38-16 by substituting $\Psi(x)$ and its second derivative into Eq. 38-16 and noting
     that an identity results.
+
+      \textcolor{hwColor}{
+        $
+          \Psi(x)=Ae^{ikx}+Be^{-ikx} \longrightarrow \dfrac{d\Psi(x)}{dx}=A(ik)e^{ikx}-B(ik)e^{-ikx} \\
+          \\
+          \dfrac{d^2\Psi(x)}{dx^2}=A(ik)^2e^{ikx}+B(ik)^2e^{-ikx}=(ik)^2\left(Ae^{ikx}+Be^{-ikx}\right)=-k^2 \Psi(x) \\
+          \\
+        $
+        The schrodinger wave equation: \\
+        \\
+        $
+          \dfrac{d^2 \Psi(x)}{dx^2}+k^2 \Psi(x)=0 \\
+          \\
+          -k^2 \Psi(x)+k^2 \Psi(x)=0 \\
+          \\
+          \Longrightarrow \Psi(x)=Ae^{ikx}+Be^{-ikx}
+        $
+        is the general solution of $\dfrac{d^2 \Psi(x)}{dx^2}+k^2 \Psi(x)=0$
+      }
 
 
     \item (63) The uncertainty in the position of an electron along an x axis is given as 50 pm, which is about equal to the radius of a hydrogen atom.
     What is the least uncertainty in any simultaneous measurement of the
     momentum component px of this electron?
 
+      \textcolor{hwColor}{
+        $
+          \Delta p \approx \dfrac{\hbar}{\Delta x} \approx \dfrac{6.63 \times 10^{-34}~J.s}{2 \pi (50 ~ pm)} \\
+          \\
+          \Delta p \approx 2.1 \times 10^{-24} ~~ kg.m/s
+        $
+      }
 
-    \item (66) 
 
+    \item (66) Consider a potential energy barrier like that of Fig. 38-15 but whose height Ub is 6.0 eV and whose thickness L is 0.70 nm.
+    What is the energy of an incident electron whose transmission coefficient is 0.0010?
 
-    \item (68) 
+      \textcolor{hwColor}{
+        $
+          h=6 ~ eV ~~~~ L=0.70 \times 10^{-9} m ~~~~ T=0.0010 ~~~~ m=9.11 \times 10^{-31} ~~~~ \hbar=1.055 \times 10^{-34} \\
+          \\
+          T=e^{-2Gl} ~~~~~ G=\dfrac{\sqrt{2m(h-E)}}{\hbar} \\
+          \\
+          ln(T) = 2\dfrac{\sqrt{2m(h-E)}}{\hbar}L \\
+          \\
+          \left[\hbar ln(T)\right]^2=8mL^(h-E) \\
+          \\
+          \left[\hbar ln(T)\right]^2=8mL^2h-8mL^2E \Longrightarrow E=\dfrac{8mL^2h-\left[\hbar ln(T)\right]^2}{8(9.11 \times 10^{-31})L^2} \\
+          \\
+          =\dfrac{8(9.11 \times 10^{-31})(0.70 \times 10^{-9})^2(6)-\left[(1.055 \times 10^{-34}) ln(0.0010)\right]^2}{8(9.11 \times 10^{-31})(0.70 \times 10^{-9})^2} \\
+          \\
+          \\
+          \Longrightarrow E=6~ eV
+        $
+      }
 
+    \item (68) (a) Suppose a beam of 5.0 eV protons strikes a potential energy barrier of height 6.0 eV and thickness 0.70 nm, at a rate equivalent to a current of 1000 A. How long would you have to
+    wait—on average—for one proton to be transmitted? (b) How long would you have to wait if the beam consisted of electrons rather than protons?
 
-    \item (81) 
+    \textcolor{hwColor}{
+      (a): \\
+      $
+        n=\dfrac{I}{e}=\dfrac{1000 C/s}{1.60 \times 10^{-19} C} \rightarrow n=6.25 \times 10^{21} ~~ 1/s \\
+        \\
+        N_T=TN_0 ~~~~ N_T=1 \rightarrow Tnt=1 \\
+        \\
+        T \approx e^{-2bL} ~~~~~~ b=\sqrt{\dfrac{8 \pi^2 m(U-E)}{h^2}} ~~~~~~ t=\dfrac{e^{2bL}}{n} \\
+        \\
+        b=\sqrt{\dfrac{8 \pi^2 (1.67 \times 10^{-27})(1.602 \times 10^{-19})}{(6.626 \times 10^{-34})^2}}=2.1934 \times 10^11 ~~~ 1/m \\
+        \\
+        t=\dfrac{e^{2bL}}{n}=\dfrac{e^{2(2.1934 \times 10^{11})(0.70 \times 10^{-9})}}{6.25 \times 10^21} \Longrightarrow t=1.18 \times 10^{104} ~~ y \\
+        \\
+      $
+    }
 
+    \textcolor{hwColor}{
+      (b): \\
+      $
+        b=\sqrt{\dfrac{8 \pi^2 (9.11 \times 10^{-31})(1.602 \times 10^{-19})}{(6.626 \times 10^{-34})^2}}=5.1232 \times 10^9 ~~ 1/m \\
+        \\
+        t=\dfrac{e^{2(5.1232 \times 10^9)(0.70 \times 10^{-9})}}{2.1 \times 10^{-19}} ~~ s
+      $
+    }
+
+    \item (81) Imagine playing baseball in a universe (not ours!) where the Planck constant is 0.60 J s and thus quantum physics affects macroscopic objects. What would be the uncertainty in the
+    position of a 0.50 kg baseball that is moving at 20 m/s along an axis
+    if the uncertainty in the speed is 1.0 m/s?
+
+      \textcolor{hwColor}{
+       $
+        \Delta p=m \Delta v=(0.50 ~ kg)(1 ~ m/s)=0.50 ~ kgm/s \\
+        \\
+        \Delta x=\dfrac{\hbar}{\Delta p}=\dfrac{0.60}{2 \pi(0.50)} \\
+        \\
+        \Delta p=0.19 ~ m
+       $
+      }
 
   \end{enumerate}
 
