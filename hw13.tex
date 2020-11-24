@@ -1,0 +1,320 @@
+\documentclass[fleqn]{article}
+\oddsidemargin 0.0in
+\textwidth 6.0in
+\thispagestyle{empty}
+\usepackage{import}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{float}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\definecolor{hwColor}{HTML}{AD53BA}
+
+\begin{document}
+
+  \begin{titlepage}
+
+    \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+    \center % Center everything on the page
+
+
+
+    \textsc{\LARGE Arizona State University}\\[1.5cm] % Name of your university/college
+
+    \textsc{\LARGE Physics III }\\[1.5cm] % Major heading such as course name
+
+
+    \begin{figure}
+      \includegraphics[width=\linewidth]{asu.png}
+    \end{figure}
+
+
+    \HRule \\[0.4cm]
+    { \huge \bfseries Homework 13}\\[0.4cm] 
+    \HRule \\[1.5cm]
+
+    \textbf{Behnam Amiri}
+
+    \bigbreak
+
+    \textbf{Prof: David Smith}
+
+    \bigbreak
+
+
+    \textbf{{\large \today}\\[2cm]}
+
+    \vfill % Fill the rest of the page with whitespace
+
+  \end{titlepage}
+
+  \begin{enumerate}
+    \item (3) The ground-state energy of an electron trapped in a onedimensional infinite potential well is 2.6 eV. What will this quantity
+    be if the width of the potential well is doubled?
+
+      \textcolor{hwColor}{
+        Length of the well L with ground state energy E, and when the length change to $L^{'}$, the the ground state enegry is $E^{'}$ \\
+        $
+          E_n=\left(\dfrac{h^2}{8mL^2}\right)n^2 \\
+          \\
+          \dfrac{(L^{'})^2}{L^2}=\dfrac{E}{E^{'}} \rightarrow E^{'}=\dfrac{(L^{'})^2}{L^2} E \\
+          \\
+          \dfrac{(L^{'})^2}{L^2}=2 \rightarrow \dfrac{L^2}{(L^{'})^2}=\dfrac{1}{4} \longrightarrow E^{'}=\dfrac{E}{4} \\
+          \\
+          E^{'}=\dfrac{2.6 ~~ eV}{4}=0.65 ~~ eV
+        $
+      }
+
+    \item (5) What must be the width of a one-dimensional infinite potential well if an electron trapped in it in the n=3 state is to
+    have an energy of 4.7 eV?
+
+      \textcolor{hwColor}{
+        $
+          E_n=\left(\dfrac{h^2}{8mL^2}\right)n^2=\dfrac{(nhc)^2}{8(mc^2)L^2} \\
+          \\
+          \\
+          L=\dfrac{nhc}{\sqrt{8(mc^2)E_n}}=\dfrac{3 \times 1240 ~~ eV nm}{\sqrt{8(511 \times 10^3)4.7 ~~ eV}} \\
+          \\
+          L=0.85 ~~ nm
+        $
+      }
+
+    \item (9) Suppose that an electron trapped in a one-dimensional infinite well of width 250 pm is excited from its first excited state to its third
+    excited state. (a) What energy must be transferred to the electron for this quantum jump? The electron then de-excites back to its ground state by emitting light. In the various possible ways it can do this,
+    what are the (b) shortest, (c) second shortest, (d) longest, and (e) second longest wavelengths that can be emitted? (f) Show the various possible ways on an energy-level diagram. If light of wavelength
+    29.4 nm happens to be emitted, what are the (g) longest and (h) shortest wavelength that can be emitted afterwards?
+    
+      \textcolor{hwColor}{
+        A: \\
+        $
+          E_n=\left(\dfrac{h^2}{8mL^2}\right)n^2 \\
+          \\
+          \Delta E_{2 \rightarrow 4}\left(\dfrac{h^2}{8mL^2}\right)(n^2_4-n^2_2)=\left(\dfrac{6.63 \times 10^{-34}}{8(9.11 \times 10^{-31})(250 \times 10^{-12})^2}\right)(4^2-2^2) \\
+          \\
+          \Delta E_{2 \rightarrow 4}=72.2 ~~ eV
+        $
+      }
+
+      \textcolor{hwColor}{
+        B: \\
+        $
+          \lambda=\dfrac{hc}{\Delta E}=\dfrac{hc}{E^{'}-E^{''}} \\
+          \\
+          E^{'}-E^{''}=\dfrac{h^2}{8mL^2}((n^{'})^2-(n^{''})^2) \\
+          \\
+          \lambda=\dfrac{8mcL^2}{h(((n^{'})^2-(n^{''})^2))} \\
+          \\
+          \Delta E_{4 \rightarrow 1}=\dfrac{8(9.11 \times 10^{-31})(3 \times 10^8)(250 \times 10^{-12})}{(6.63 \times 10^{-34})(4^2-2^2)} \\
+          \\
+          \Delta E_{4 \rightarrow 1}=1.37 \times 10^{-8} ~~ m
+        $
+      }
+
+      \textcolor{hwColor}{
+        C: \\
+        $
+          \Delta E_{4 \rightarrow 2}=\dfrac{8(9.11 \times 10^{-31})(3 \times 10^8)(250 \times 10^{-12})}{(6.63 \times 10^{-34})(4^2-2^2)} \\
+          \\
+          \Delta E_{4 \rightarrow 2}=1.72 \times 10^{-8} ~~ m
+        $
+      }
+
+      \textcolor{hwColor}{
+        D: \\
+        $
+          \Delta E_{2 \rightarrow 1}=\dfrac{8(9.11 \times 10^{-31})(3 \times 10^8)(250 \times 10^{-12})}{(6.63 \times 10^{-34})(2^2-1^2)} \\
+          \\
+          \Delta E_{2 \rightarrow 1}=6.88 \times 10^{-8} ~~ m
+        $
+      }
+
+
+      \textcolor{hwColor}{
+        E: \\
+        $
+          \Delta E_{3 \rightarrow 2}=\dfrac{8(9.11 \times 10^{-31})(3 \times 10^8)(250 \times 10^{-12})}{(6.63 \times 10^{-34})(2^2-1^2)} \\
+          \\
+          \Delta E_{3 \rightarrow 2}=4.12 \times 10^{-8} ~~ m
+        $
+      }
+
+      \textcolor{hwColor}{
+        G: \\
+        $
+          \Delta E_{4 \rightarrow 3}=\dfrac{8(9.11 \times 10^{-31})(3 \times 10^8)(250 \times 10^{-12})}{(6.63 \times 10^{-34})(2^2-1^2)} \\
+          \\
+          \Delta E_{4 \rightarrow 3}=2.94 \times 10^{-8} ~~ m \\
+          \\
+          \\
+          \Delta E_{2 \rightarrow 1}=6.87 \times 10^{-8} ~~ m \\
+        $
+      }
+
+      \textcolor{hwColor}{
+        H: \\
+        $
+          \Delta E_{3 \rightarrow 2}=4.12 \times 10^{-8} ~~ m \\
+        $
+      }
+
+
+    \item (17) An electron in the n=2 state in the finite potential well of
+    Fig. 39-7 absorbs 400 eV of energy from an external source. Using the energy-level diagram of Fig. 39-9, determine the electron’s kinetic energy after this absorption, assuming that the electron
+    moves to a position for which x=L.
+
+      \textcolor{hwColor}{
+        $
+          K_e=E_i+E_o-d
+        $ where d is the depth of the well \\
+        \\
+        $
+          K_e=109 ~ eV+400~ eV-450~ eV \\
+          \\
+          K_e=59 ~~ eV
+        $
+      }
+
+    \item (18) Figure 39-9 gives the energy levels for an electron trapped in a finite potential energy well 450 eV deep. If the electron is in the
+    n=3 state, what is its kinetic energy?
+    
+      \textcolor{hwColor}{
+        $
+          E_3=K+U=280+0=280 ~~ eV
+        $
+      }
+
+    \item (22) An electron is contained in the rectangular corral of Fig. 39-13, with widths Lx=800 pm and Ly=1600 pm. What is the
+    electron’s ground-state energy?
+    
+      \textcolor{hwColor}{
+        The energy of an electron in two dimensional rectangular: \\
+        \\
+        $
+          E=\dfrac{\pi^2 h^2}{2m}\left((\dfrac{n_x}{L_x})^2+(\dfrac{n_y}{L_y})^2\right) \\
+          \\
+          =\dfrac{\pi^2 h^2}{2m}\left((\dfrac{n_x}{L_x})^2+(\dfrac{n_y}{L_y})^2\right)=\dfrac{(6.63 \times 10^{-34})^2}{8(9.11 \times 10^{-31})}\left((\dfrac{1}{608 \times 10^{-12}})^2+(\dfrac{1}{1880 \times 10^{-12}})^2\right) \\
+          \\
+          E=1.125 ~ eV
+        $
+      }
+
+    \item (23) An electron is contained in the rectangular box of Fig. 39-14, with widths Lx=800 pm, Ly=1600 pm, and Lz=390 pm. What
+    is the electron’s ground-state energy?
+
+      \textcolor{hwColor}{
+        $
+          E=E_x+E_y+E_Z=\dfrac{h^2}{8m}\left[\dfrac{n^2_x}{L^2_x}+\dfrac{n^2_y}{L^2_y}+\dfrac{n^2_z}{L^2_z}\right] \\
+          \\
+          E=\dfrac{6.63 \times 10^{-34}}{8(9.11 \times 10^{-31})}\left[\dfrac{1}{800 \times 10^{-12}}+\dfrac{1}{1600 \times 10^{-12}}+\dfrac{1}{390 \times 10^{-12}}\right] \\
+          \\
+          E=2.52 \times 10^{24} ~~ eV
+        $
+      }
+
+    \item (28) A cubical box of widths Lx=Ly=Lz=L contains an electron. What multiple of h2/8mL2 , where m is the electron mass, is
+    (a) the energy of the electron’s ground state, (b) the energy of its second excited state, and (c) the difference between the energies of its
+    second and third excited states? How many degenerate states have the energy of (d) the first excited state and (e) the fifth excited state?
+
+      \textcolor{hwColor}{
+        A: \\
+        $
+          E=\dfrac{h^2}{8m}\left[\dfrac{n^2_x}{L^2_x}+\dfrac{n^2_y}{L^2_y}+\dfrac{n^2_z}{L^2_z}\right]=\dfrac{h^2}{8mL^2}(n^2_x+n^2_y+n^2_z) \\
+          \\
+          E_G=\dfrac{h^2}{8mL^2}(1+1+1)=3\dfrac{h^2}{8mL^2} \\
+        $ \\
+      }
+
+      \textcolor{hwColor}{
+        B: \\
+        $
+          E_2=\dfrac{h^2}{8mL^2}(4+4+1)=9\dfrac{h^2}{8mL^2} \\
+        $ \\
+      }
+
+      \textcolor{hwColor}{
+        C: \\
+        $
+          E_3=\dfrac{h^2}{8mL^2}(1+1+9)=9\dfrac{h^2}{8mL^2} \\
+          \\
+          E_3-E_2=2\dfrac{h^2}{8mL^2}
+        $ \\
+      }
+
+      \textcolor{hwColor}{
+        D: \\
+        $
+          (n_x, n_y, n_z)=(2,1,1) ~~~~ (n_x, n_y, n_z)=(1,2,1) ~~~~ (n_x, n_y, n_z)=(1,1,2) ~~~~
+        $ \\
+        The degeneracy is three. 
+      }
+
+      \textcolor{hwColor}{
+        E: \\
+        $
+          (n_x, n_y, n_z)=(1,2,3), (1,3,2), (2,3,1), (2,1,3), (3,1,2), (3,2,1)
+        $ \\
+        The degeneracy is six. 
+      }
+
+    \item (38) An atom (not a hydrogen atom) absorbs a photon whose associated frequency is $6.2 \times 10^{14}$ Hz. By what amount does the energy of the atom increase?
+
+      \textcolor{hwColor}{
+        $
+         \Delta E=hf=(4.14 \times 10^{-15})(6.2 \times 10^{14}) \\
+         \\
+         \Delta E=2.6 ~~ eV
+        $
+      }
+
+    \item (42) A hydrogen atom, initially at rest in the n=4 quantum state, undergoes a transition to the ground state, emitting a photon
+    in the process. What is the speed of the recoiling hydrogen atom?
+    (Hint:This is similar to the explosions of Chapter 9.)
+
+      \textcolor{hwColor}{
+        $
+          P_{ph}=\dfrac{E}{c}=mv=\dfrac{hf}{c} \\
+          \\
+          v=\dfrac{A}{mc}\left[\dfrac{1}{n^2_1}+\dfrac{1}{n^2_2}\right]=\dfrac{13.6 \times 1.602 \times 10^{-19}}{(1.67 \times 10^{-27})(2.998 \times 10^{8})}(\dfrac{1}{1}-\dfrac{1}{16}) \\
+          \\
+          v=4.1 ~~ m/s
+        $
+      }
+
+    \item (48) Light of wavelength 121.6 nm is emitted by a hydrogen atom. What are the (a) higher quantum number and (b) lower
+    quantum number of the transition producing this emission? (c) What is the name of the series that includes the transition?
+
+      \textcolor{hwColor}{
+        A: \\
+        $
+          E_{ph}=A\left[\dfrac{1}{n^2_2}-\dfrac{1}{n^2_1}\right] \\
+          \\
+          \dfrac{E_{ph}}{hc}=\dfrac{A}{hc}\left[\dfrac{1}{n^2_2}-\dfrac{1}{n^2_1}\right] \rightarrow \dfrac{hc}{\lambda A}=\dfrac{1}{n^2_2}-\dfrac{1}{n^2_1} \\
+          \\
+          \dfrac{(6.63 \times 10^{-34})(3 \times 10^8)}{(102.6 \times 10^{-9})(13.6 \times 1.602 \times 10^{-19})}=\dfrac{1}{n^2_2}-\dfrac{1}{n^2_1} \\
+          \\
+          \Rightarrow \dfrac{1}{n^2_2}-\dfrac{1}{n^2_1}=0.9 \Longrightarrow n_1=3 \\
+        $
+      }
+
+      \textcolor{hwColor}{
+        B: \\
+        $
+          n_2=1 \\
+        $
+      }
+
+      \textcolor{hwColor}{
+        C: \\
+        $
+          Lyman \\
+        $
+      }
+
+
+
+  \end{enumerate}
+
+\end{document}
